@@ -194,8 +194,8 @@
       </section>
 
       <!-- Seats Selection sector  -->
-      <section class="mt-20 w-[1170px] h-[1050px]">
-        <div>
+      <section class="mt-20 w-[1170px] h-[1050px] flex justify-between ">
+        <!-- <div> -->
             <h2 class="text-2xl font-bold ml-20">Select Your Seat</h2>
             <div class="decoration-slice divider divide-dotted ml-20"></div>
            <div class="flex justify-center justify-between">
@@ -449,9 +449,33 @@
        <br>
        
        <div  class="flex flex-col-2 space-x-4 space-y justify-between ml-24 mr-24 pr-10">
-        <h4 class="text-xl font-bold">Total Price</h4>
+        <h4 class="text-xl font-bold">Grand Total</h4>
         <p class="text-xl font-bold">BDT 1100</p>
      </div>
+     <!-- input section of information section -->
+     <div class="space-x-3 space-y-3 mt-4 ml-20">
+        <h4 class="text-xl font-medium ml-4">Passenger Name*</h4>
+     <label class="input input-bordered flex items-center gap-2">
+        <input type="text" class="grow" placeholder="Enter Your Name " />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd" /></svg>
+      </label>
+      <h4 class="text-xl font-medium ml-4">Phone Number*</h4>
+      <label class="input input-bordered flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" /><path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" /></svg>
+        <input type="text" class="grow" placeholder="Enter Your Phone Number" />
+      </label>
+      <h4 class="text-xl font-medium ml-4">Email ID*</h4>
+      <label class="input input-bordered flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" /></svg>
+        <input type="text" class="grow" placeholder="Enter your email" />
+      </label>
+      </div>
+      <button class="btn btn-block bg-green-500 mt-4 ml-20 mr-28 ">Next</button>
+        <div class="flex justify-between  mx-auto items-center text-center ml-20 mt-4 ">
+            <p class="text-gray-300 underline">Terms and conditions</p>
+            <p class="text-gray-300 underline">Cancellation Policy</p>
+        </div>
+
         </div>
 
 
@@ -465,18 +489,67 @@
 
 
 
-        </div>
+        <!-- </div> -->
       </section>
 </main>
 
 
 
 <!-- footer section -->
-<footer>
+
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <aside>
+     <h4 class="text-2xl font-medium">Limoshine E-Ticket Service </h4>
+      <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+    </aside> 
+    <nav>
+      <h6 class="footer-title">Download Our App</h6> 
+      <div class="grid grid-flow-col gap-2">
+        <div class="border-2 border-white w-80 flex space-x-2 mx-auto ">
+       <div> <img src="images/playstore.png" alt=""></div>
+       <div> <p class="text-gray-500">Get it On</p>
+        <p class="text-gray-500 font-medium">Google Play</p>
+        </div>
+        </div>
+      </div>
+    </nav>
+
+  <div>
+      <div>
+        <p>@All right reserved Limoshine E-ticket Service Limited-2024</p>
+      </div>
+      <div class="flex justify-around space-x-3">
+        <p>Terms & condition</p>
+        <p>Return & refund policy</p>
+        <p>Privacy & policy</p>
+      </div>
+ </div>
+  </footer>
 
 
-</footer>
+<!-- confirm Section  -->
+<section class="mt-14 mx-auto items-center ml-24 w-[1170px h-full] border-2 border-gray-400 bg-slate-200">
+   <div>
+       <div class="items-center mx-auto ml-96 mt-4 mb-3 p-24"  >
+        <img src="images/success.png" alt="">
+      </div>
+      <div>
+        <h3 class=" text-xl font-bold text-green-500 text-center ">SUCCESS</h3>
+      </div>
+      <div class="text-center ">
+        <p class="text-xl font-medium mt-3 mb-3"> Thanks you for Booking Our Bus Seats.</p>
+          <p class="text-xl font-medium mt-3 mb-3">We are working hard to find best service and deals for our passengers </p>
+          <p class="text-xl text-gray-700 mt-3 mb-3">Shortly you will get a confirmation notification by your email</p>
+      </div>
+      <button class="btn btn-wide bg-green-500 rounded-2xl items-center ml-96 mt-4">Continue</button>
+   </div>
+
+
+
+
+
+</section>
     
-
+<script src="/JS/index.js"></script>
 </body>
 </html>
