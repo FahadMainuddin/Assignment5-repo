@@ -19,8 +19,8 @@ for ( const btn of allBtn) {
     // console.log(event.target.parentNode.childNodes[1].innerText);
 
 // Update Seat
-const seatsAvailable = document.getElementById("seats-available");
-document.getElementById("seats-available").innerText = seatsAvailable - parseInt(card-body);
+// const seatsAvailable = document.getElementById("seats-available");
+// document.getElementById("seats-available").innerText = seatsAvailable - parseInt(card-body);
 
 
 
